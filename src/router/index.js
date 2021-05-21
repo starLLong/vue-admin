@@ -7,7 +7,7 @@ const routes = [
   },
   {
     path: "/login",
-    name: "login",
+    name: "登录",
     component: import("../views/login/index.vue"),
   },
 ];

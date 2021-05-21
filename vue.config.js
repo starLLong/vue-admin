@@ -51,7 +51,7 @@ module.exports = {
     modules: false,
   },
   devServer: {
-    port: 8080,
+    port: 8081,
     host: "0.0.0.0",
     https: false,
     // 自动启动浏览器
