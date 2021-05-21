@@ -27,11 +27,13 @@ module.exports = {
   integrity: false,
   configureWebpack: {
     resolve: {
+      extension: ['.js','.json',',vue'],
       alias: {
         assets: "@/assets",
         components: "@/components",
         views: "@/views",
         common: "@/common",
+        utils: "@/utils"
       },
     },
   },
